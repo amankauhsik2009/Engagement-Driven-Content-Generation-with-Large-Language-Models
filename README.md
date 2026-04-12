@@ -1,1 +1,2 @@
-# Engagement-Driven-Content-Generation-with-Large-Language-Models
+# Run: pip install -r requirements.txt
+Open notebooks/main.ipynb
