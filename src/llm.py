@@ -1,3 +1,4 @@
+import torch
 from transformers import pipeline
 
 # Using lightweight GPT-2 just for generating sample text
