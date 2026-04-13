@@ -5,25 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Engagement-Driven Content Generation</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; background: #f7f7fb; color: #1f2937; }
-    a { color: #2563eb; }
+    body { font-family: Arial, sans-serif; margin: 40px; background: #f7f9fb; color: #1f2937; }
+    a { color: #2563eb; text-decoration: none; }
+    a:hover { text-decoration: underline; }
     .container { max-width: 900px; margin: auto; background: white; padding: 28px; border-radius: 12px; box-shadow: 0 18px 40px rgba(15,23,42,0.08); }
     h1 { margin-top: 0; }
     ul { line-height: 1.8; }
+    .note { margin-top: 20px; color: #4b5563; }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Engagement-Driven Content Generation</h1>
-    <p>This GitHub Pages site is the documentation front page for the repository.</p>
-    <p>Use the repository links below to open the notebook, app, and source files.</p>
+    <p>This project has an interactive prompt tester that generates candidate posts and measures engagement.</p>
+    <p>Open the prompt tester using the link below:</p>
     <ul>
-      <li><a href="https://github.com/nlp-llm/Engagement-Driven-Content-Generation-with-Large-Language-Models">Repository</a></li>
+      <li><a href="./app.html">Open Prompt Engagement Tester</a></li>
       <li><a href="https://github.com/nlp-llm/Engagement-Driven-Content-Generation-with-Large-Language-Models/blob/main/main.ipynb">Notebook</a></li>
-      <li><a href="https://github.com/nlp-llm/Engagement-Driven-Content-Generation-with-Large-Language-Models/blob/main/index.html">Web UI</a></li>
       <li><a href="https://github.com/nlp-llm/Engagement-Driven-Content-Generation-with-Large-Language-Models/blob/main/src/">Source code</a></li>
     </ul>
-    <p>If you want this to become a rich project site, I can also add a Jekyll config and documentation pages.</p>
+    <p class="note">Note: the tester page is a static UI. To generate results, run the backend server locally using <code>python3 app.py</code>.</p>
   </div>
 </body>
 </html>
